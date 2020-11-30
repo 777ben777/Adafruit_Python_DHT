@@ -30,8 +30,8 @@ import Adafruit_DHT
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-deviceId = 'DNVEDCFZ'
-deviceKey = '489vJVLK2yn4fXfD' 
+deviceId = 'DEMsUvNZ'
+deviceKey = 'PWCbEMgBnonQWZC1' 
 
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
